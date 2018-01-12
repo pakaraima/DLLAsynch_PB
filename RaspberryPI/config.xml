@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+<MacAddress>
+  
+</MacAddress>
+<UnityIPAddress>192.168.1.24</UnityIPAddress>
+<UnityPort>
+  11000
+</UnityPort>
+<Logging>
+  <Activate>True</Activate>
+  <File>
+    <!-- "H:\logs\raspberryPi" -->
+    shaftesburry.log
+  </File>
+  <Mode>
+    <!-- "w+ = Overwrite| a+ = Append|Rotate" -->
+    a+
+  </Mode>
+</Logging>
+<Sensors>
+  <Sensor>
+    <SensorId>
+      1
+    </SensorId>
+    <Type>
+      PulseSensor
+    </Type>
+    <DataType>
+      Integer
+    </DataType>
+    <Interval>
+      30
+    </Interval>
+    <GpioAddress></GpioAddress>
+  </Sensor>
+</Sensors>
+</Config>

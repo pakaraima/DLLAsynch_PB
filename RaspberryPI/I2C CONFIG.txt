@@ -1,0 +1,95 @@
+//---------------------------------------------------------------//
+	    I2C CONFIGURATION ON RASPBERRY PI
+//---------------------------------------------------------------//
+
+
+DESCRIPTION: I2C IS A MULTI-DEVICE BUS FOR INTERFACING SENSORS
+	     AND PERIPHERALS TO EMBEDDED SYSTEMS.I2C IS NOT 
+	     ENABLED BY DEFAULT ON RASPBERRY PI. PLEASE FOLLOW
+	     THE INSTRUCTIONS BELOW.
+	 
+//---------------------------------------------------------------//
+
+
+TO ENABLE I2C USING CONFIG UTILITY IN RASPBERRY PI, IN COMMAND
+TERMINAL TYPE:
+
+	
+sudo raspi-config
+	
+THIS WILL LAUNCH RASPI-CONFIG UTILITY. NOW COMPLETE FOLLOWING 
+STEPS:
+	
+	-> SELECT INTERFACING OPTIONS
+
+	-> SELECT I2C
+
+	-> ENABLE : YES 
+	
+	-> FINISH
+
+	-> NOW REBOOT RASPBERRY PI
+
+ON REBOOT THE I2C MODULE WILL BE LOADED.
+
+
+//---------------------------------------------------------------//
+
+
+TO DEBUG AND ALLOW I2C INTERFACE TO BE USED WITHIN PYTHON WE NEED
+TO INSTALL FOLLOWING UTILITY FOLLOWED BY UPDATING PI.
+
+IN COMMAND TERMINAL, TYPE:
+
+sudo apt-get update
+
+WAIT FOR TREMINAL TO FINISH UPDATE, THEN TYPE:
+
+sudo apt-get install -y python-smbus i2c-tools
+
+
+
+//---------------------------------------------------------------//
+
+NOW SUTDOWN PI USING FOLLOWING COMMAND:
+
+sudo halt
+	
+WAIT 10s, DISCONNECT POWER FROM PI AND NOW CONNECT I2C HADRWARE. 
+
+
+//---------------------------------------------------------------//
+
+
+POWER ON RASPBERRY PI AND VERIFY IF I2C IS ENABLED BY TYPING 
+FOLLOWING COMMAND:
+
+
+lsmod | grep i2c_
+
+
+THIS SHOULD LIST ALL THE MODUELS STARTING WITH "i2c_". 
+
+//---------------------------------------------------------------//
+
+TESTING HARDWARE CONNECTIVITY: TYPE FOLLOWING COMMAND
+
+sudo i2cdetect -y 1 OR sudo i2cdetect -y 0
+
+
+//---------------------------------------------------------------//
+
+
+pi@raspberrypi ~ $ sudo i2cdetect -y 1
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+00:          -- -- -- -- -- -- -- -- -- -- -- -- --
+10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+20: 20 -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+40: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+70: -- -- -- -- -- -- -- --
+
+This shows that I’ve got one device connected and its address is 0x20 (32 in decimal).
+
