@@ -1,0 +1,16 @@
+c:\users\peter\documents\visual studio 2017\Projects\DLLAsynch2\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+c:\users\peter\documents\visual studio 2017\Projects\DLLAsynch2\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+c:\users\peter\documents\visual studio 2017\Projects\DLLAsynch2\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+c:\users\peter\documents\visual studio 2017\Projects\DLLAsynch2\ConsoleApp1\bin\Debug\DLLAsynch2.dll
+c:\users\peter\documents\visual studio 2017\Projects\DLLAsynch2\ConsoleApp1\bin\Debug\DLLAsynch2.pdb
+c:\users\peter\documents\visual studio 2017\Projects\DLLAsynch2\ConsoleApp1\obj\Debug\ConsoleApp1.csprojResolveAssemblyReference.cache
+c:\users\peter\documents\visual studio 2017\Projects\DLLAsynch2\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+c:\users\peter\documents\visual studio 2017\Projects\DLLAsynch2\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\Peter\Documents\Visual Studio 2017\Projects\DLLAsynch2 _OLD\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Peter\Documents\Visual Studio 2017\Projects\DLLAsynch2 _OLD\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Peter\Documents\Visual Studio 2017\Projects\DLLAsynch2 _OLD\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Peter\Documents\Visual Studio 2017\Projects\DLLAsynch2 _OLD\ConsoleApp1\bin\Debug\DLLAsynch2.dll
+C:\Users\Peter\Documents\Visual Studio 2017\Projects\DLLAsynch2 _OLD\ConsoleApp1\bin\Debug\DLLAsynch2.pdb
+C:\Users\Peter\Documents\Visual Studio 2017\Projects\DLLAsynch2 _OLD\ConsoleApp1\obj\Debug\ConsoleApp1.csprojResolveAssemblyReference.cache
+C:\Users\Peter\Documents\Visual Studio 2017\Projects\DLLAsynch2 _OLD\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Peter\Documents\Visual Studio 2017\Projects\DLLAsynch2 _OLD\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

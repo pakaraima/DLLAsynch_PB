@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+  <UnityPort>
+    11000
+  </UnityPort>
+  <Logging>
+    <Activate>"True|False"</Activate>
+    <File>
+      "H:\logs\raspberryPi"
+    </File>
+    <Mode>
+      "Overwrite|Append|Rotate"
+    </Mode>
+  </Logging>
+</Config>
